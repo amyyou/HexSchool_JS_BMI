@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="BMI">
+    <meta property="og:title" content="BMI | 首頁">
+    <meta property="og:description" content="BMI">
+    <meta property="og:image" content="https://bit.ly/2OhbMHr">
+    <meta property="og:type" content="website">
+    <title>BMI - 首頁</title>
+    <link rel="stylesheet" href="stylesheets/all.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="bg-dark py-7">
+        <div class="container">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md mb-md-0 mb-3">
+                            <a href="index.html" class="d-block text-center">
+                                <img src="images/BMICLogo.png" alt="" width="117" height="117">
+                            </a>
+                        </div>
+                        <div class="col-md mb-md-0 mb-3">
+                            <div class="form-group text-primary ">
+                                <label for="height">身高 cm</label>
+                                <input type="number" class="form-control" id="height" placeholder="請輸入身高">
+                            </div>
+                            <div class="form-group text-primary ">
+                                <label for="weight">體重 kg</label>
+                                <input type="number" class="form-control" id="weight" placeholder="請輸入體重">
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="btn_all ">
+                                <a href="#" class="btn_result">
+                                    <span class="btn_number ">看結果</span>
+                                    <span class="btn_subtitle">BMI</span>
+                                    <div class="btn_icon">
+                                        <img src="images/icons_loop.png" alt="icons_loop" width="14" height="19"> 
+                                    </div>
+                                </a>
+                                <h3 class="btn_title"></h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+      <div class="container ">
+          <div class="row justify-content-center">
+              <div  class="col-lg-8 mb-5">
+                  <h2 class="text-center mt-5 mb-5 text-dark">BMI 紀錄</h2>
+                  <p class="h4 text-center" id="listNoRecord"></p>
+                  <a href="#" class="btn_clear_all ">全部清除</a>
+                  <div class="overflow-auto">
+                      <table class="w-100">
+                          <tbody id="listId">
+                               <!-- <tr class="list_all"> 
+                                   <td class="list_item">理想</td>
+                                   <td class="list_item"><span class="list_small">BMI</span>20.45</td>
+                                   <td class="list_item"><span class="list_small">weight</span>43kg</td>
+                                   <td class="list_item"><span class="list_small">height</span>145cm</td>
+                                   <td class="list_item"><span class="list_small">12-09-2020</span></td>
+                                   <td class="list_item"><a class="list_icon_del" href="#"><i class="fas fa-trash-alt "></i></a></td>
+                               </tr> -->
+                          </tbody>
+                      </table>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+    </main>
+
+    <footer class="bg-primary text-center py-3">
+           <img src="images/BMICLogo-footer.png" alt="BMICLogo-footer" width="55" height="55">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>
