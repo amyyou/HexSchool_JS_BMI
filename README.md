@@ -19,7 +19,7 @@
    -localStorage.getItem(‘key’) 取出值      
 7. 使用Date() 取得本地時間，並呼叫內建函式 getDate()、getMonth()、getFullYear()
 8. 使用e.preventDefault取消元素默認行為(例如取消跳轉網頁行為)
-9. data-* : 透過 dataset 讀取自訂資料
+9. data-* : 透過 dataset 讀取自訂資料，跟資料做綁定和驗證的動作
 10. e.target.nodeName代表 DOM 元素點擊到的節點 (例如UI , LI , A)
 
 
